@@ -1,9 +1,9 @@
 .PHONY: docker ufw
 
 docker:
-	make -C /docker all
+	make -C docker all
 
 ufw:
-	make -C /ufw all
+	make -C ufw all
 
 all: docker ufw
