@@ -5,7 +5,7 @@ Some scripts for quick install handy tools on fresh machine.
 Firstly run `chmod +x prepare.sh` and `prepare.sh`. It'll update packages list and install `make`.
 
 ### All-In-One
-Run `make all` from root. It'll instal `docker`, `docker-compose`, enable `ufw` and add some rules for it, disable `PasswordAuthentication`, `ChallengeResponseAuthentication` and `UsePAM` SSH settings.
+Run `make all` from root. It'll install `docker`, `docker-compose`, enable `ufw` and add some rules for it, disable `PasswordAuthentication`, `ChallengeResponseAuthentication` and `UsePAM` SSH settings.
 
 ### Docker
 From `/docker` directory run `make all`. It'll install `docker` and `docker-compose` on machine.
