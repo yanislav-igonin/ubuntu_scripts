@@ -9,4 +9,7 @@ ufw:
 ssh:
 	make -C ssh all
 
-all: docker ufw ssh
+all: 
+	make docker
+	make ufw
+	make ssh
