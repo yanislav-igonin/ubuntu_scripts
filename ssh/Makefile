@@ -13,8 +13,4 @@ disable_challenge_response_authentication:
 restart:
 	service ssh restart
 
-all: 
-	disable_password_authentication
-	disable_use_pam
-	disable_challenge_response_authentication
-	restart
+all: disable_password_authentication disable_use_pam disable_challenge_response_authentication restart
