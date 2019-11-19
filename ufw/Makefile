@@ -1,6 +1,6 @@
 enable:
 	chmod +x enable.sh
-	./enable.sh.sh
+	./enable.sh
 
 add_rules:
 	chmod +x add_rules.sh
