@@ -3,10 +3,10 @@
 docker:
 	make -C docker all
 
-ssh:
-	make -C ssh all
-
 ufw:
 	make -C ufw all
 
-all: docker ssh ufw
+ssh:
+	make -C ssh all
+
+all: docker ufw ssh
