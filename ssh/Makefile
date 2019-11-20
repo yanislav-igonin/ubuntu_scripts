@@ -15,6 +15,6 @@ restart:
 
 all:
 	make disable_password_authentication
-	make disable_use_pam
-	# make disable_challenge_response_authentication
+	# make disable_use_pam
+	make disable_challenge_response_authentication
 	make restart
